@@ -78,7 +78,7 @@ html{
 #home::before {
 
     content: "";
-    background: url('/images/slider-01.jpg') no-repeat center center/cover;
+    background: url('images/slider-01.jpg') no-repeat center center/cover;
     position: absolute;
     top: 94px;
     left: 0;
@@ -232,8 +232,8 @@ filter: brightness(60%);
 
 
 .qt-background {
-    background: url(../images/qt-bg.jpg) no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/qt-bg.jpg);
+    background: url(images/qt-bg.jpg) no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(images/qt-bg.jpg);
     background-size: cover;
     padding: 100px 0;
     background-attachment: fixed;
@@ -479,7 +479,7 @@ filter: brightness(60%);
 }
 
 .bg-f {
-    background-image: url("../images/footer-bg.jpg");
+    background-image: url("images/footer-bg.jpg");
     background-attachment: scroll;
     background-clip: initial;
     background-color: rgba(0, 0, 0, 0);
